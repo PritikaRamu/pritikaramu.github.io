@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://pritikaramu.github.io/sitemap.xml
