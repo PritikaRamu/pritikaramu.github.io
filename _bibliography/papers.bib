@@ -1,115 +1,161 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{mukhopadhyay-etal-2024-unraveling,
+    title = "Unraveling the Truth: Do {VLM}s really Understand Charts? A Deep Dive into Consistency and Robustness",
+    author = "Mukhopadhyay, Srija  and
+      Qidwai, Adnan  and
+      Garimella, Aparna  and
+      Ramu, Pritika  and
+      Gupta, Vivek  and
+      Roth, Dan",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.973/",
+    doi = "10.18653/v1/2024.findings-emnlp.973",
+    pages = "16696--16717",
+    abstract = "Chart question answering (CQA) is a crucial area of Visual Language Understanding. However, the robustness and consistency of current Visual Language Models (VLMs) in this field remain under-explored. This paper evaluates state-of-the-art VLMs on comprehensive datasets, developed specifically for this study, encompassing diverse question categories and chart formats. We investigate two key aspects: 1) the models' ability to handle varying levels of chart and question complexity, and 2) their robustness across different visual representations of the same underlying data. Our analysis reveals significant performance variations based on question and chart types, highlighting both strengths and weaknesses of current models. Additionally, we identify areas for improvement and propose future research directions to build more robust and reliable CQA systems. This study sheds light on the limitations of current models and paves the way for future advancements in the field."
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{ramu-etal-2024-enhancing,
+    title = "Enhancing Post-Hoc Attributions in Long Document Comprehension via Coarse Grained Answer Decomposition",
+    author = "Ramu, Pritika  and
+      Goswami, Koustava  and
+      Saxena, Apoorv  and
+      Srinivasan, Balaji Vasan",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.985/",
+    doi = "10.18653/v1/2024.emnlp-main.985",
+    pages = "17790--17806",
+    abstract = "Accurately attributing answer text to its source document is crucial for developing a reliable question-answering system. However, attribution for long documents remains largely unexplored. Post-hoc attribution systems are designed to map answer text back to the source document, yet the granularity of this mapping has not been addressed. Furthermore, a critical question arises: What exactly should be attributed? This involves identifying the specific information units within an answer that require grounding. In this paper, we propose and investigate a novel approach to the factual decomposition of generated answers for attribution, employing template-based in-context learning. To accomplish this, we utilize the question and integrate negative sampling during few-shot in-context learning for decomposition. This approach enhances the semantic understanding of both abstractive and extractive answers. We examine the impact of answer decomposition by providing a thorough examination of various attribution approaches, ranging from retrieval-based techniques to LLM-based attributors."
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{ramu-etal-2024-bad,
+    title = "Is This a Bad Table? A Closer Look at the Evaluation of Table Generation from Text",
+    author = "Ramu, Pritika  and
+      Garimella, Aparna  and
+      Bandyopadhyay, Sambaran",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.1239/",
+    doi = "10.18653/v1/2024.emnlp-main.1239",
+    pages = "22206--22216",
+    abstract = "Understanding whether a generated table is of good quality is important to be able to use it in creating or editing documents using automatic methods. In this work, we underline that existing measures for table quality evaluation fail to capture the overall semantics of the tables, and sometimes unfairly penalize good tables and reward bad ones. We propose TabEval, a novel table evaluation strategy that captures table semantics by first breaking down a table into a list of natural language atomic statements and then compares them with ground truth statements using entailment-based measures. To validate our approach, we curate a dataset comprising of text descriptions for 1,250 diverse Wikipedia tables, covering a range of topics and structures, in contrast to the limited scope of existing datasets. We compare TabEval with existing metrics using unsupervised and supervised text-to-table generation methods, demonstrating its stronger correlation with human judgments of table quality across four datasets."
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{ghosh-etal-2025-infogen,
+    title = "Infogen: Generating Complex Statistical Infographics from Documents",
+    author = "Ghosh, Akash  and
+      Garimella, Aparna  and
+      Ramu, Pritika  and
+      Bandyopadhyay, Sambaran  and
+      Saha, Sriparna",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1003/",
+    doi = "10.18653/v1/2025.acl-long.1003",
+    pages = "20552--20570",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Statistical infographics are powerful tools that simplify complex data into visually engaging and easy-to-understand formats. Despite advancements in AI, particularly with LLMs, existing efforts have been limited to generating simple charts, with no prior work addressing the creation of complex infographics from text-heavy documents that demand a deep understanding of the content. We address this gap by introducing the task of generating \textit{statistical infographics} composed of multiple sub-charts (e.g., line, bar, pie) that are contextually accurate, insightful, and visually aligned. To achieve this, we define infographic metadata, that includes its title and textual insights, along with sub-chart-specific details such as their corresponding data, alignment, etc. We also present \textbf{ \textit{Infodat}}, the first benchmark dataset for text-to-infographic metadata generation, where each sample links a document to its metadata. We propose \textbf{ \textit{Infogen}}, a two-stage framework where fine-tuned LLMs first generate metadata, which is then converted into infographic code. Extensive evaluations on \textbf{ \textit{Infodat}} demonstrate that \textbf{ \textit{Infogen}} achieves state-of-the-art performance, outperforming both closed and open-source LLMs in text-to-statistical infographic generation."
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{ramu-etal-2024-zooming-zero,
+    title = "Zooming in on Zero-Shot Intent-Guided and Grounded Document Generation using {LLM}s",
+    author = "Ramu, Pritika  and
+      Gaur, Pranshu  and
+      Emandi, Rishita  and
+      Maheshwari, Himanshu  and
+      Javed, Danish  and
+      Garimella, Aparna",
+    editor = "Mahamood, Saad  and
+      Minh, Nguyen Le  and
+      Ippolito, Daphne",
+    booktitle = "Proceedings of the 17th International Natural Language Generation Conference",
+    month = sep,
+    year = "2024",
+    address = "Tokyo, Japan",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.inlg-main.52/",
+    doi = "10.18653/v1/2024.inlg-main.52",
+    pages = "676--694",
+    abstract = "Repurposing existing content on-the-fly to suit author{'}s goals for creating initial drafts is crucial for document creation. We introduce the task of intent-guided and grounded document generation: given a user-specified intent (e.g., section title) and a few reference documents, the goal is to generate section-level multimodal documents spanning text and images, grounded on the given references, in a zero-shot setting. We present a data curation strategy to obtain general-domain samples from Wikipedia, and collect 1,000 Wikipedia sections consisting of textual and image content along with appropriate intent specifications and references. We propose a simple yet effective planning-based prompting strategy, Multimodal Plan-And-Write (MM-PAW), to prompt LLMs to generate an intermediate plan with text and image descriptions, to guide the subsequent generation. We compare the performances of MM-PAW and a text-only variant of it with those of zero-shot Chain-of-Thought (CoT) using recent close and open-domain LLMs. Both of them lead to significantly better performances in terms of content relevance, structure, and groundedness to the references, more so in the smaller models (upto 12.5 points increase in Rouge 1-F1) than in the larger ones (upto 4 points increase in R1-F1). They are particularly effective in improving relatively smaller models' performances, to be on par or higher than those of their larger counterparts for this task."
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{ramu-etal-2024-re2,
+    title = "$RE^2$: Region-Aware Relation Extraction from Visually Rich Documents",
+    author = "Ramu, Pritika  and
+      Wang, Sijia  and
+      Mouatadid, Lalla  and
+      Rimchala, Joy  and
+      Huang, Lifu",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.484/",
+    doi = "10.18653/v1/2024.naacl-long.484",
+    pages = "8731--8747",
+    abstract = "Current research in form understanding predominantly relies on large pre-trained language models, necessitating extensive data for pre-training. However, the importance of layout structure (i.e., the spatial relationship between the entity blocks in the visually rich document) to relation extraction has been overlooked. In this paper, we propose $\textbf{RE}$gion-Aware $\textbf{R}$elation $\textbf{E}$xtraction ($\bf{RE^2}$) that leverages region-level spatial structure among the entity blocks to improve their relation prediction. We design an edge-aware graph attention network to learn the interaction between entities while considering their spatial relationship defined by their region-level representations. We also introduce a constraint objective to regularize the model towards consistency with the inherent constraints of the relation extraction task. To support the research on relation extraction from visually rich documents and demonstrate the generalizability of $\bf{RE^2}$, we build a new benchmark dataset, ${DiverseForm}$, that covers a wide range of domains. Extensive experiments on ${DiverseForm}$ and several public benchmark datasets demonstrate significant superiority and transferability of $\bf{RE^2}$ across various domains and languages, with up to 18.88{\%} absolute F-score gain over all high-performing baselines"
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{jain-etal-2025-doc2chart,
+    title = "{D}oc2{C}hart: Intent-Driven Zero-Shot Chart Generation from Documents",
+    author = "Jain, Akriti  and
+      Ramu, Pritika  and
+      Garimella, Aparna  and
+      Saxena, Apoorv",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1770/",
+    doi = "10.18653/v1/2025.emnlp-main.1770",
+    pages = "34936--34951",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Large Language Models (LLMs) have demonstrated strong capabilities in transforming text descriptions or tables to data visualizations via instruction-tuning methods. However, it is not straightforward to apply these methods directly for a more real-world use case of visualizing data from long documents based on user-given intents, as opposed to the user pre-selecting the relevant content manually. We introduce the task of {\_}intent-based chart generation{\_} from documents: given a user-specified intent and document(s), the goal is to generate a chart adhering to the intent and grounded on the document(s) in a zero-shot setting. We propose an unsupervised, two-staged framework in which an LLM first extracts relevant information from the document(s) by decomposing the intent and iteratively validates and refines this data. Next, a heuristic-guided module selects an appropriate chart type before final code generation. To assess the data accuracy of the generated charts, we propose an attribution-based metric that uses a structured textual representation of charts, instead of relying on visual decoding metrics that often fail to capture the chart data effectively. To validate our approach, we curate a dataset comprising of 1,242 {\ensuremath{<}}intent, document, charts{\ensuremath{>}} tuples from two domains, finance and scientific, in contrast to the existing datasets that are largely limited to parallel text descriptions/ tables and their corresponding charts. We compare our approach with baselines using single-shot chart generation using LLMs and query-based retrieval methods; our method outperforms by upto 9 points and 17 points in terms of chart data accuracy and chart type respectively over the best baselines."
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@misc{ramu2025styleadaptedlmenhancinginstructionfollowing,
+      title={StyleAdaptedLM: Enhancing Instruction Following Models with Efficient Stylistic Transfer}, 
+      author={Pritika Ramu and Apoorv Saxena and Meghanath M Y and Varsha Sankar and Debraj Basu},
+      year={2025},
+      eprint={2507.18294},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.18294}, 
 }
