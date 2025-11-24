@@ -188,7 +188,7 @@ exclude:
   - vendor
   - _pages/projects.md
   - _pages/dropdown.md
-  - _posts/sample_folderß
+  - _posts/sample_folder
 keep_files:
   - CNAME
   - .nojekyll
