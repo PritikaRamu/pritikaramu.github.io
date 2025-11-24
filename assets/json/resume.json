@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Pritika Ramu",
-    "label": "Ph.D. Student in Computer Science at University of Maryland, College Park",
+    "label": "",
     "image": "",
     "email": "pramu [at] umd [dot] edu",
     "phone": "",
@@ -27,8 +27,8 @@
       "institution": "University of Maryland",
       "location": "College Park, Maryland",
       "url": "",
-      "area": "Computer Science",
-      "studyType": "Ph.D.",
+      "area": "",
+      "studyType": "Ph.D. in Computer Science",
       "startDate": "2025-09-01",
       "endDate": "Present",
       "score": "",
@@ -38,8 +38,8 @@
       "institution": "Birla Institute of Technology and Science, Pilani",
       "location": "Pilani, India",
       "url": "",
-      "area": "Computer Science",
-      "studyType": "B.E.",
+      "area": "",
+      "studyType": "B.E. in Computer Science",
       "startDate": "2019-08-01",
       "endDate": "2023-05-01",
       "score": "",
@@ -54,7 +54,7 @@
       "url": "",
       "startDate": "2025-09-01",
       "endDate": "Present",
-      "summary": "Working on understanding common ground and pragmatic reasoning in language models.",
+      "summary": "",
       "highlights": []
     },
     {

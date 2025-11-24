@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started making an attempt to revamp my personal website.
+Making an attempt at upgrading my website
