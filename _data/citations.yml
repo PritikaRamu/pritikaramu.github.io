@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2025-12-12'
+  last_updated: '2025-12-19'
 papers:
   5WYblIIAAAAJ:2osOgNQ5qMEC:
     citations: 10
     title: Enhancing Post-Hoc Attributions in Long Document Comprehension via Coarse Grained Answer Decomposition
     year: '2024'
   5WYblIIAAAAJ:9yKSN-GCB0IC:
-    citations: 7
+    citations: 8
     title: Is This a Bad Table? A Closer Look at the Evaluation of Table Generation from Text
     year: '2024'
   5WYblIIAAAAJ:IjCSPb-OGe4C:
-    citations: 2
+    citations: 3
     title: 'Infogen: Generating Complex Statistical Infographics from Documents'
     year: '2025'
   5WYblIIAAAAJ:UeHWp8X0CEIC:
