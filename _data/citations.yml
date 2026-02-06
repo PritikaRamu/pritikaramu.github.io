@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2026-02-06'
 papers:
   5WYblIIAAAAJ:2osOgNQ5qMEC:
     citations: 10
@@ -22,8 +22,8 @@ papers:
     title: Zooming in on Zero-Shot Intent-Guided and Grounded Document Generation using LLMs
     year: '2024'
   5WYblIIAAAAJ:qjMakFHDy7sC:
-    citations: 0
-    title: 'DOC2CHART: Intent-Driven Zero-Shot Chart Generation from Documents'
+    citations: 1
+    title: 'Doc2Chart: Intent-Driven Zero-Shot Chart Generation from Documents'
     year: '2025'
   5WYblIIAAAAJ:u-x6o8ySG0sC:
     citations: 14
