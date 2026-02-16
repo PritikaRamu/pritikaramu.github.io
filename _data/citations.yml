@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-16'
 papers:
   5WYblIIAAAAJ:2osOgNQ5qMEC:
     citations: 10
@@ -16,7 +16,7 @@ papers:
   5WYblIIAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: An Assessment of Some Ethical Challenges to Employee Privacy and Consumer Privacy in the Business World
-    year: '2022'
+    year: Unknown Year
   5WYblIIAAAAJ:d1gkVwhDpl0C:
     citations: 2
     title: Zooming in on Zero-Shot Intent-Guided and Grounded Document Generation using LLMs
@@ -26,8 +26,8 @@ papers:
     title: 'Doc2Chart: Intent-Driven Zero-Shot Chart Generation from Documents'
     year: '2025'
   5WYblIIAAAAJ:u-x6o8ySG0sC:
-    citations: 14
-    title: 'Unraveling the truth: Do VLMs really understand charts? a deep dive into consistency and robustness'
+    citations: 15
+    title: 'Unraveling the truth: Do vlms really understand charts? a deep dive into consistency and robustness'
     year: '2024'
   5WYblIIAAAAJ:u5HHmVD_uO8C:
     citations: 2
