@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-23'
+  last_updated: '2026-04-06'
 papers:
   5WYblIIAAAAJ:2osOgNQ5qMEC:
     citations: 10
@@ -10,7 +10,7 @@ papers:
     title: Is This a Bad Table? A Closer Look at the Evaluation of Table Generation from Text
     year: '2024'
   5WYblIIAAAAJ:IjCSPb-OGe4C:
-    citations: 5
+    citations: 6
     title: 'Infogen: Generating Complex Statistical Infographics from Documents'
     year: '2025'
   5WYblIIAAAAJ:UeHWp8X0CEIC:
@@ -26,7 +26,7 @@ papers:
     title: 'Doc2Chart: Intent-Driven Zero-Shot Chart Generation from Documents'
     year: '2025'
   5WYblIIAAAAJ:u-x6o8ySG0sC:
-    citations: 18
+    citations: 19
     title: 'Unraveling the truth: Do vlms really understand charts? a deep dive into consistency and robustness'
     year: '2024'
   5WYblIIAAAAJ:u5HHmVD_uO8C:
