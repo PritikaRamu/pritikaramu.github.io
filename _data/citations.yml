@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-07-01'
 papers:
   5WYblIIAAAAJ:2osOgNQ5qMEC:
-    citations: 12
+    citations: 13
     title: Enhancing Post-Hoc Attributions in Long Document Comprehension via Coarse Grained Answer Decomposition
     year: '2024'
   5WYblIIAAAAJ:9yKSN-GCB0IC:
-    citations: 12
+    citations: 13
     title: Is This a Bad Table? A Closer Look at the Evaluation of Table Generation from Text
     year: '2024'
   5WYblIIAAAAJ:IjCSPb-OGe4C:
-    citations: 7
+    citations: 9
     title: 'Infogen: Generating Complex Statistical Infographics from Documents'
     year: '2025'
   5WYblIIAAAAJ:Tyk-4Ss8FVUC:
@@ -34,11 +34,11 @@ papers:
     title: 'Doc2Chart: Intent-Driven Zero-Shot Chart Generation from Documents'
     year: '2025'
   5WYblIIAAAAJ:u-x6o8ySG0sC:
-    citations: 22
+    citations: 23
     title: 'Unraveling the truth: Do vlms really understand charts? a deep dive into consistency and robustness'
     year: '2024'
   5WYblIIAAAAJ:u5HHmVD_uO8C:
-    citations: 2
+    citations: 3
     title: 'RE : Region-Aware Relation Extraction from Visually Rich Documents'
     year: '2024'
   5WYblIIAAAAJ:zYLM7Y9cAGgC:
