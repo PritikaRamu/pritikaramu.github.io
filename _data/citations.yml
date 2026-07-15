@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-15'
 papers:
   5WYblIIAAAAJ:2osOgNQ5qMEC:
-    citations: 13
+    citations: 14
     title: Enhancing Post-Hoc Attributions in Long Document Comprehension via Coarse Grained Answer Decomposition
     year: '2024'
   5WYblIIAAAAJ:9yKSN-GCB0IC:
@@ -26,7 +26,7 @@ papers:
     title: 'An Answer is just the Start: Related Insight Generation for Open-Ended Document-Grounded QA'
     year: '2026'
   5WYblIIAAAAJ:d1gkVwhDpl0C:
-    citations: 3
+    citations: 4
     title: Zooming in on Zero-Shot Intent-Guided and Grounded Document Generation using LLMs
     year: '2024'
   5WYblIIAAAAJ:qjMakFHDy7sC:
@@ -38,7 +38,7 @@ papers:
     title: 'Unraveling the truth: Do vlms really understand charts? a deep dive into consistency and robustness'
     year: '2024'
   5WYblIIAAAAJ:u5HHmVD_uO8C:
-    citations: 3
+    citations: 4
     title: 'RE : Region-Aware Relation Extraction from Visually Rich Documents'
     year: '2024'
   5WYblIIAAAAJ:zYLM7Y9cAGgC:
