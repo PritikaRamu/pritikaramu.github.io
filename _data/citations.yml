@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-27'
 papers:
   5WYblIIAAAAJ:2osOgNQ5qMEC:
-    citations: 14
+    citations: 15
     title: Enhancing Post-Hoc Attributions in Long Document Comprehension via Coarse Grained Answer Decomposition
     year: '2024'
   5WYblIIAAAAJ:9yKSN-GCB0IC:
@@ -34,7 +34,7 @@ papers:
     title: 'Doc2Chart: Intent-Driven Zero-Shot Chart Generation from Documents'
     year: '2025'
   5WYblIIAAAAJ:u-x6o8ySG0sC:
-    citations: 23
+    citations: 24
     title: 'Unraveling the truth: Do vlms really understand charts? a deep dive into consistency and robustness'
     year: '2024'
   5WYblIIAAAAJ:u5HHmVD_uO8C:
